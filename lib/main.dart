@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutterpractise/home.dart';
 import 'package:flutterpractise/listview.dart';
+import 'package:flutterpractise/listviewWithgridview.dart';
 import 'package:flutterpractise/state.dart';
 import 'package:flutterpractise/teachers.dart';
 import 'package:flutterpractise/gridview.dart';
@@ -26,9 +27,8 @@ class MyApp extends StatelessWidget {
           // Gridview()
           // DrawerNav(),
           // Tabs()
-          SetState()
-        ),
-
+          ListViewWithGridView()
+        )
         ),     
  );
 }
